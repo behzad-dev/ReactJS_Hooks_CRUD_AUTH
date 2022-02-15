@@ -1,0 +1,20 @@
+.MenuContainer {
+  display: block;
+  background-color: var(--main-color);
+  position: sticky;
+  color: var(--main-text-color);
+}
+.Links {
+  padding: var(--padding-space);
+  display: inline-block;
+}
+.noDecoration {
+  text-decoration: none;
+  font-weight: 700;
+}
+.MenuHeader {
+  font-weight: 700;
+  padding: var(--padding-space);
+  font-style: oblique;
+  background-color: rgb(233, 247, 170);
+}

@@ -1,0 +1,6 @@
+npm install --save react-router-dom
+npm install --save redux react-redux
+ npm install --save axios redux-thunk
+ npm install --save lodash 
+ npm install --save history
+  history: 4.10.1 with react-router-dom 5.2.0 no
