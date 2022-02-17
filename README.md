@@ -1,7 +1,7 @@
 
-#ReactJS_Hooks_CRUD_AUTH
+# ReactJS_Hooks_CRUD_AUTH
 
-# BaseReactRedux
+BaseReactRedux
 Base Project with React Redux Routes
 
 React Hooks,  CRUD with AUTH
