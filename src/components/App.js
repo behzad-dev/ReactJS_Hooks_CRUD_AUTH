@@ -11,6 +11,7 @@ import DataFetchOne from "./DataFetchOne";
 import DataList from "./DataList";
 import DataUpdate from "./DataUpdate";
 import DataDelete from "./DataDelete";
+import Login from "./Login";
 function App() {
   return (
     <div className="App">
@@ -22,6 +23,7 @@ function App() {
           <Route path="/Update" exact element={<DataUpdate />}></Route>
           <Route path="/Delete" exact element={<DataDelete />}></Route>
           <Route path="/FetchOne" exact element={<DataFetchOne />}></Route>
+          <Route path="/Login" exact element={<Login />}></Route>
         </Routes>
       </Router>
     </div>

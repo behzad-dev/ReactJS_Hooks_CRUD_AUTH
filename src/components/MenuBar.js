@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./stylesheets/MenuBar.css";
-
+import { signOut } from "firebase/auth";
 export default function MenuBar() {
   return (
     <div className="MenuContainer">
@@ -29,6 +29,12 @@ export default function MenuBar() {
         <span className="Links">
           <Link className="noDecoration" to="/Update">
             <span>Update</span>
+          </Link>
+        </span>
+
+        <span style={{ float: "right" }} className="Links">
+          <Link className="noDecoration" to="/Login">
+            <span>Login/Register</span>
           </Link>
         </span>
       </div>
